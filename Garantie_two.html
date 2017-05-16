@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Garantie</title>
+    <!--
+        <link rel="stylesheet" href="css_four/style.css">
+        <link rel="stylesheet" href="css_one/animate.css">
+        <link rel="stylesheet" href="css_one/bootstrap.css">
+        <link rel="stylesheet" href="css_one/bootstrap-theme.css">
+
+        <link rel="stylesheet" href="skins/default.css">
+        <link rel="stylesheet" href="skins/eden.css">
+    -->
+
+
+    <link rel="stylesheet" href="skins/default.css">
+
+    <link rel="stylesheet" href="css_four/style.css">
+    <link rel="stylesheet" href="css_four/bootstrap.css">
+    <link rel="stylesheet" href="css_four/animate.css">
+    <link rel="stylesheet" href="css_four/flexslider.css">
+    <link rel="stylesheet" href="css_four/icomoon.css">
+    <link rel="stylesheet" href="css_four/magnific-popup.css">
+
+    <script src="js_four/modernizr-2.6.2.min.js"></script>
+    <script src="js_four/respond.min.js"></script>
+
+    <!--
+        <link rel="stylesheet" href="css_one/bootstrap.css" media="screen">
+        <link rel="stylesheet" href="skins/eden.css" media="screen">
+        <link rel="stylesheet" href="css_one/font-awesome.min.css">
+        <link rel="stylesheet" href="css_one/animate.css" >
+    -->
+
+</head>
+
+<body>
+
+<nav class="fh5co-nav" role="navigation">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 text-right menu-1">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="Garantie_one.html">Garantie</a></li>
+                    <li><a href="#">Reparation</a></li>
+                    <li><a href="#">SAV</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(imgs/img_4.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+
+        <div class="row">
+            <div class="display-t">
+
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <p style="color:white; font-size: x-large;">Garantie</p>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="well bs-component">
+                        <form class="form-horizontal" action="php/garThree.php">
+                            <fieldset>
+
+                                <legend>Activer votre garantie</legend>
+
+                                <div class="form-group">
+
+                                    <div class="col-md-12">
+                                        <div class="bs-component">
+                                            <div class="progress progress-striped active">
+                                                <div class="progress-bar progress-control" style="width: 66%">Etape 2</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group" >
+                                    <label for="inputNom" class="col-md-2 col-md-offset-1 control-label">Nom</label>
+
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputNom" placeholder="Nom" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputPrenom" class="col-md-2 col-md-offset-1 control-label">Prenom</label>
+
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputPrenom" placeholder="Prenom" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputTele" class="col-md-2 col-md-offset-1 control-label">Telephone</label>
+
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputTele" >
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputMail" class="col-md-2 col-md-offset-1 control-label">e-mail</label>
+
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="inputMail" type="email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputdate" class="col-md-2 col-md-offset-1 control-label">Date d'achat</label>
+
+                                    <div class="col-md-6">
+                                        <input type="date" class="form-control" id="inputDate"/>
+                                        <span class="help-block">Saissez le date comme 20AA-MM-JJ</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputVendeur" class="col-md-2 col-md-offset-1 control-label">Vendeur</label>
+
+                                    <div class="col-md-6">
+                                        <input  class="form-control" id="inputVendeur" >
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-4 col-lg-offset-3">
+                                        <p type="reset" ><a type="reset" href="Garantie_one.html" class="btn btn-default">Cancel</a>
+                                            <a type="submit" class="btn btn-primary">Submit</a></p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</header>
+
+</body>
+
+<script>
+    function convertToISO(timebit) {
+        return isodate = timebit.toISOString().slice(0, 10);
+    }
+
+    var dateTarget = document.getElementById('inputDate');
+    var currentDate = new Date();
+    var gap = 365;
+    dateTarget.max = convertToISO(currentDate);
+    var pastDate = new Date();
+    pastDate.setDate(pastDate.getDate() - gap);
+    dateTarget.min = convertToISO(pastDate);
+</script>
+
+</html>
