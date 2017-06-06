@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title>SAV</title>
+
+    <link rel="stylesheet" href="css_four/style.css">
+    <link rel="stylesheet" href="css_four/bootstrap.css">
+    <link rel="stylesheet" href="css_four/animate.css">
+    <link rel="stylesheet" href="css_four/flexslider.css">
+    <link rel="stylesheet" href="css_four/icomoon.css">
+    <link rel="stylesheet" href="css_four/magnific-popup.css">
+
+    <script src="js_four/modernizr-2.6.2.min.js"></script>
+    <script src="js_four/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="js_four/index.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+
+</head>
+<body>
+    <div class="fh5co-loader"></div>
+
+    <nav class="fh5co-nav" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div id="fh5co-logo"><a href="index.html">SAV</a></div>
+                </div>
+                <div class="col-xs-10 text-right menu-1">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li id="buttonAboutUs"><a>About us</a></li>
+                        <li class="has-dropdown"><a href="#">Services</a>
+                            <ul class="dropdown">
+                                <li><a data-toggle="modal" data-target="#myModalGarantie">Garantie</a></li>
+                                <li><a data-toggle="modal" data-target="#myModalReparation ">SAV</a></li>
+                                <li><a data-toggle="modal" data-target="#myModalSAV">Reparation</a></li>
+                            </ul>
+                        </li>
+                        <li id="contact"><a>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        $(function () {
+            $("#buttonAboutUs").on('click', function() {
+                $('html,body').animate({
+                        scrollTop: $("#aboutUs").offset().top},
+                    'slow');
+            });
+        });
+
+    </script>
+
+    <script>
+        $(function () {
+            $("#contact").on('click', function() {
+                $('html,body').animate({
+                        scrollTop: $(document).height()},
+                    1000);
+            });
+        });
+    </script>
+
+
+    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image: url(imgs/img_4.jpg);">
+        <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 text-center">
+                        <div class="display-t">
+                            <div class="display-tc animate-box"  data-animate-effect="fadeIn">
+                                <h1>IE GLOBAL</h1>
+                                <h2>Make life better <a href="http://www.ieglobal.be/" target="_blank" title="Ieglobal">IEGLOBAL</a></h2>
+                                <p></p>
+                                <p id="buttonService"><a class="btn btn-success">View our work</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <script>
+        $(function () {
+            $("#buttonService").on('click', function() {
+                $('html,body').animate({
+                        scrollTop: $("#fh5co-section").offset().top},
+                    'slow');
+            });
+        });
+    </script>
+
+
+    <div class="container" >
+        <div class="row">
+            <div id="fh5co-section">
+                <div class="col-nineth">
+                    <div class="row">
+                        <div class="col-third">
+                            <div class="col-md-12">
+                                <span class="icon">
+                                    <i class="icon-laptop"></i>
+                                </span>
+                                <div class="desc">
+                                    <h3>Garantie</h3>
+                                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p><a class="btn btn-primary"  data-toggle="modal" data-target="#myModalGarantie">Learn more</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-third">
+                            <div class="col-md-12">
+                                <span class="icon">
+                                    <i class="icon-loop"></i>
+                                </span>
+                                <div class="desc">
+                                    <h3>SAV</h3>
+                                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p><a class="btn btn-primary" data-toggle="modal" data-target="#myModalReparation">Learn more</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-third">
+                            <div class="col-md-12">
+                                <span class="icon">
+                                    <i class="icon-ribbon"></i>
+                                </span>
+                                <div class="desc">
+                                    <h3>Reparation</h3>
+                                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                                    <p><a  class="btn btn-primary" data-toggle="modal" data-target="#myModalSAV">Learn more</a> </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fh5co-bg-section" id="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div id="fh5co-features-2">
+                    <div class="col-feature-9">
+                        <div class="row">
+                            <div class="col-md-12 fh5co-heading animate-box">
+                                <h2 >About us</h2>
+                                <p>Make life better</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-7 col-sm-7 col-md-pull-2 col-sm-pull-2 animate-box" data-animate-effect="fadeInRight">
+                                <div class="feature-image">
+                                    <img src="imgs/iphone.jpg" alt="work">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-feature-3">
+                        <div id="fh5co-counter" class="fh5co-bg fh5co-counter">
+                            <div class="row">
+                                <div class="display-t">
+                                    <div class="display-tc">
+                                        <div class="col-md-12 animate-box">
+                                            <div class="feature-center">
+                                                <span class="counter js-counter" data-form="182" data-to="365" data-speed="5000" data-refresh-interval="50">1</span>
+                                                <span class="counter-label">garantie</span>
+                                            </div>
+                                            <div class="feature-center">
+                                                <span class="counter js-counter" data-form="0" data-to="10" data-speed="5000" data-refresh-interval="50">1</span>
+                                                <span class="counter-label">Activation garantie </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container">
+            <div class="row row-pb-md">
+                <div class="col-md-4 fh5co-widget">
+                    <h3>The Company</h3>
+                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                    <p><a href="#">Learn More</a></p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                    <ul class="fh5co-footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Meetups</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                    <ul class="fh5co-footer-links">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Held Desk</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                    <ul class="fh5co-footer-links">
+                        <li><a href="#">Find Designers</a></li>
+                        <li><a href="#">Find Developers</a></li>
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row copyright" >
+                <div class="col-md-12 text-center">
+                    <p>
+                        <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+                        <small class="block">More Templates <a href="http://www.cssmoban.com/" target="_blank" title=""></a> - Collect from <a href="http://www.cssmoban.com/" title="" target="_blank"></a> Demo Images: <a href="#" target="_blank">Unsplash</a></small>
+                    </p>
+                    <p>
+                        <ul class="fh5co-social-icons">
+                            <li><a href="#"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div>
+        <div class="modal fade" id="myModalGarantie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" id="modalGarantieInit_1">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" id="GarantieLabel">
+                            Activer votre Garantie
+                        </h4>
+                    </div>
+
+                    <script>
+                        $(function () {
+                            $("#modalGarantieInit_1").on('click', function () {
+                                // Info init
+                                informationRemove("form_ga_1");
+                                informationRemove("form_ga_nom");
+                                informationRemove("form_ga_pnom");
+                                informationRemove("form_ga_date");
+                                informationRemove("form_ga_ven");
+                                informationRemove("form_ga_email");
+                                informationRemove("imageInfoControl");
+
+                                document.getElementById("span_Emei").innerHTML = "Saissez votre code EMEI";
+
+                                // form init
+                                document.getElementById("step_2").style.display="none";
+                                document.getElementById("step_3").style.display="none";
+
+                                // Button init
+                                document.getElementById("step_1_button").style.display="block";
+                                document.getElementById("step_2_button").style.display="none";
+                                document.getElementById("footer_button").style.display="none";
+
+                                // Information erreur init
+                                document.getElementById("alertNom").style.display="none";
+                                document.getElementById("alertPnom").style.display="none";
+                                document.getElementById("alertEmail").style.display="none";
+
+                                document.getElementById("inputEmei").readOnly = false;
+                                document.getElementById("Nom").readOnly = false;
+                                document.getElementById("prenom").readOnly = false;
+                                document.getElementById("inputEmail").readOnly = false;
+                                document.getElementById("inputDate").readOnly = false;
+                                document.getElementById("inputVendeur").readOnly = false;
+
+                                document.getElementById("alertSuccess").style.display="none";
+                                document.getElementById("form_garantie").style.display="block";
+                                document.getElementById('form_garantie').reset();
+                            })
+                        });
+
+                        function informationRemove(id) {
+                            console.log('enterRemove');
+                            if ( document.getElementById(id).classList.contains('has-success') ){
+                                document.getElementById(id).classList.remove('has-success');
+                            }else if ( document.getElementById(id).classList.contains('has-error') ){
+                                document.getElementById(id).classList.remove('has-error');
+                            }
+                        }
+                    </script>
+
+                    <div class="alert alert-success" style="display: none" id="alertSuccess">
+                        <strong>Success</strong>! votre garantee a ete active
+                    </div>
+
+                    <form class="form-horizontal" role="form" id="form_garantie">
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label  class="col-sm-2 control-label" for="inputEmei">IMEI</label>
+                                <div class="col-sm-10" id="form_ga_1">
+                                    <input type="text" class="form-control" id="inputEmei" name="inputEmei" placeholder="Emei"/>
+                                    <span class="help-block" id="span_Emei">Saissez votre code EMEI</span>
+                                </div>
+                            </div>
+                            <div class="modal-footer" id="step_1_button" style="display: block">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modalGarantieInit_2">
+                                    Fermer
+                                </button>
+                                <button type="button" class="btn btn-primary"  id="modalGarantieCheck_1">
+                                    Etape suivante
+                                </button>
+                            </div>
+
+                            <script>
+                                $(function () {
+                                    $("#modalGarantieInit_2").on('click', function () {
+                                        informationRemove("form_ga_1");
+                                        document.getElementById("span_Emei").innerHTML = "Saissez votre code EMEI";
+                                        document.getElementById('form_garantie').reset();
+                                    })
+                                });
+                            </script>
+
+                            <script>
+                                $(function () {
+                                    $("#modalGarantieCheck_1").on('click', function() {
+                                        var temp = "";
+                                        var str = $("#inputEmei").val(); // get value from input
+                                        if(str === ""){
+                                            document.getElementById("form_ga_1").classList.add('has-error');
+                                        } else {
+                                            if (window.XMLHttpRequest) { //code for IE7+
+                                                xmlhttp = new XMLHttpRequest();
+                                            } else { // code for IE6, IE5
+                                                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                                            }
+                                            xmlhttp.onreadystatechange = function () {
+                                                if (this.readyState === 4 && this.status === 200) {
+                                                    temp = this.responseText;
+                                                    console.log(temp);
+                                                    if(temp == 1){
+                                                        document.getElementById("span_Emei").innerHTML = "Veilleuez-vous valid";
+                                                        errorInformation("form_ga_1");
+                                                    }else if(temp == 2) {
+                                                        errorInformation("form_ga_1");
+                                                        document.getElementById("span_Emei").innerHTML = "deja active";
+                                                    }else {
+                                                        successInformation("form_ga_1");
+                                                        document.getElementById("span_Emei").innerHTML = "le code est bon";
+                                                        document.getElementById("inputEmei").readOnly = true;
+                                                        document.getElementById("step_1_button").style.display="none";
+                                                        $("#step_2").slideDown("slow");
+                                                        document.getElementById("step_2_button").style.display="block";
+                                                    }
+                                                }
+                                            };
+                                            xmlhttp.open("GET", "/PHP/Garantie/step_one.php?q=" + str, true);
+                                            xmlhttp.send();
+                                        }
+                                    })
+                                });
+                            </script>
+
+                            <div id="step_2" style="display: none">
+                                <hr/>
+
+                                <div class="alert alert-danger" style="display: none" id="alertNom">
+                                    Please entre valid nom
+                                </div>
+                                <div class="alert alert-danger" style="display: none" id="alertPnom">
+                                    Please entre valid pnom
+                                </div>
+                                <div class="alert alert-danger" style="display: none" id="alertEmail">
+                                    Please entre valid email
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="Nom">Nom</label>
+                                    <div class="col-sm-10" id="form_ga_nom">
+                                    <input type="text" class="form-control" id="Nom" name="Nom" placeholder="Nom"/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="prenom">Prenom</label>
+                                    <div class="col-sm-10" id="form_ga_pnom">
+                                        <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputEmail">E-mail</label>
+                                    <div class="col-sm-10" id="form_ga_email">
+                                        <input type="text" class="form-control" id="inputEmail" name="inputEmail" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputDate">Date d'achat</label>
+                                    <div class="col-sm-10" id="form_ga_date">
+                                        <input type="Date" class="form-control" id="inputDate" name="inputDate"/>
+                                        <span class="help-block">Saissez le date comme 20AA-MM-JJ</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputVendeur">Vendeur</label>
+                                    <div class="col-sm-10" id="form_ga_ven">
+                                        <input type="text" class="form-control" id="inputVendeur" name="inputVendeur"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer" id="step_2_button" style="display: none">
+                                <button type="button" class="btn btn-secondary" id="modalGarantieInit_3">
+                                    Etape derniere
+                                </button>
+                                <button type="button" class="btn btn-primary" id="step_2_check" >
+                                    Etape suivante
+                                </button>
+                            </div>
+                            <script>
+                                $(function (){
+                                    $("#modalGarantieInit_3").on('click',function () {
+                                        // Info init
+                                        informationRemove("form_ga_1");
+                                        informationRemove("form_ga_nom");
+                                        informationRemove("form_ga_pnom");
+                                        informationRemove("form_ga_date");
+                                        informationRemove("form_ga_ven");
+                                        informationRemove("form_ga_email");
+
+                                        document.getElementById("span_Emei").innerHTML = "Saissez votre code EMEI";
+
+                                        // Button init
+                                        $("#step_2").slideUp("slow");
+                                        $("#step_1_button").slideDown("slow");
+
+                                        // Information erreur init
+                                        document.getElementById("step_2_button").style.display="none";
+                                        document.getElementById("alertNom").style.display="none";
+                                        document.getElementById("alertPnom").style.display="none";
+                                        document.getElementById("alertEmail").style.display="none";
+
+                                        document.getElementById("inputEmei").readOnly = false;
+                                        document.getElementById("Nom").readOnly = false;
+                                        document.getElementById("prenom").readOnly = false;
+                                        document.getElementById("inputEmail").readOnly = false;
+                                        document.getElementById("inputDate").readOnly = false;
+                                        document.getElementById("inputVendeur").readOnly = false;
+                                    })
+                                });
+                                $(function () {
+                                    $("#step_2_check").on('click', function () {
+                                        var flag = 0;
+
+                                        var nom = $("#Nom").val();
+                                        var pnom = $("#prenom").val();
+                                        var email = $("#inputEmail").val();
+                                        var date = $("#inputDate").val();
+                                        var vendeur = $("#inputVendeur").val();
+
+                                        if (nom === "") {
+                                            errorInformation("form_ga_nom");
+                                        } else {
+                                            var reg = /^[A-Za-z]+$/;
+                                            var isok= reg.test(nom);
+                                            console.log(isok);
+                                            if(!isok){
+                                                console.log('nom');
+                                                errorInformation("form_ga_nom");
+                                                $("#alertNom").slideDown("slow");
+                                            }else{
+                                                document.getElementById("alertNom").style.display="none";
+                                                //$("#alertNom").slideUp("slow");
+                                                flag++;
+                                                successInformation("form_ga_nom");
+                                            }
+
+                                        }
+
+                                        if (pnom === "") {
+                                            errorInformation("form_ga_pnom");
+                                        } else {
+                                            var reg = /^[A-Za-z]+$/;
+                                            var isok = reg.test(pnom);
+                                            console.log(isok);
+                                            if(!isok){
+                                                console.log('pnom');
+                                                errorInformation("form_ga_pnom");
+                                                $("#alertPnom").slideDown("slow");
+                                            }else{
+                                                //$("#alertPnom").slideUp("slow");
+                                                document.getElementById("alertPnom").style.display="none";
+                                                flag++;
+                                                successInformation("form_ga_pnom");
+                                            }
+
+                                        }
+
+                                        if (email === "") {
+                                            errorInformation("form_ga_email");
+                                        } else {
+                                            var reg = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+                                            var isok= reg.test(email);
+                                            if (!isok) {
+                                                errorInformation("form_ga_email");
+                                                $("#alertEmail").slideDown("slow");
+                                            }else{
+                                                //$("#alertEmail").slideUp("slow");
+                                                document.getElementById("alertEmail").style.display="none";
+                                                flag++;
+                                                successInformation("form_ga_email");
+                                            }
+                                        }
+
+                                        if (date === "") {
+                                            errorInformation("form_ga_date");
+                                        } else {
+                                                flag++;
+                                                successInformation("form_ga_date");
+                                        }
+
+                                        if (vendeur === "") {
+                                            errorInformation("form_ga_ven");
+                                        } else {
+                                            flag++;
+                                            successInformation("form_ga_ven");
+                                        }
+
+                                        console.log(flag);
+                                        if (flag === 5){
+                                            document.getElementById("step_2_button").style.display="none";
+                                            $("#step_3").slideDown("slow");
+                                            document.getElementById("footer_button").style.display="block";
+                                            document.getElementById("Nom").readOnly = true;
+                                            document.getElementById("prenom").readOnly = true;
+                                            document.getElementById("inputEmail").readOnly = true;
+                                            document.getElementById("inputDate").readOnly = true;
+                                            document.getElementById("inputVendeur").readOnly = true;
+                                        }
+                                    })
+                                });
+                            </script>
+
+
+                            <div class="form-group" style="display: none" id="step_3">
+                                <hr />
+                                <label  class="col-sm-2 control-label" for="inputImage">Facture</label>
+                                <span class="help-block">le type de facture : jpg, jpeg, png</span>
+                                <div class="col-sm-10" id="imageInfoControl">
+                                    <input type="file" id="inputImage" name="inputImage" accept="image/jpg, image/jpeg, image/png"/>
+                                    <span class="help-block" id="spanImage">Envoyez-vous votre facture</span>
+                                </div>
+                            </div>
+
+
+                            <!-- Modal Footer -->
+                            <div class="form-group" id="footer_button" style="display: none">
+                                <div class="modal-footer" >
+                                    <button type="button" class="btn btn-secondary" id="button_cancel" >
+                                        Etape dernier
+                                    </button>
+                                    <button type="submit" class="btn btn-primary" name="infoSub" id="infoSub">
+                                        Save change
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function (){
+            $("#button_cancel").on('click',function () {
+                // Info init
+                informationRemove("form_ga_nom");
+                informationRemove("form_ga_pnom");
+                informationRemove("form_ga_date");
+                informationRemove("form_ga_ven");
+                informationRemove("form_ga_email");
+                informationRemove("imageInfoControl");
+                document.getElementById("spanImage").innerHTML = 'Envoyez-vous votre facture';
+
+                // Button init
+                document.getElementById("footer_button").style.display="none";
+                $("#step_3").slideUp("slow");
+                //$("#step_2").slideDown("slow");
+                $("#step_2_button").slideDown("slow");
+
+
+                // Information erreur init
+                document.getElementById("alertNom").style.display="none";
+                document.getElementById("alertPnom").style.display="none";
+                document.getElementById("alertEmail").style.display="none";
+
+                document.getElementById("Nom").readOnly = false;
+                document.getElementById("prenom").readOnly = false;
+                document.getElementById("inputEmail").readOnly = false;
+                document.getElementById("inputDate").readOnly = false;
+                document.getElementById("inputVendeur").readOnly = false;
+            })
+        });
+
+        $(document).ready(function(e){
+            var input = document.getElementById('inputImage');
+            var maxSize = 1;
+            maxSize = maxSize * 1000 * 1000;
+
+            $('#form_garantie').on('submit', function(e) {
+                e.preventDefault();
+                if(!input.files[0]){
+                    errorInformation("imageInfoControl");
+                    document.getElementById("spanImage").innerHTML = 'Envoyez-vous votre facture';
+                }else{
+                    var fileSize = input.files[0].size;
+                    if(fileSize > maxSize){
+                        errorInformation("imageInfoControl");
+                        document.getElementById("spanImage").innerHTML = 'file size is more then' + maxSize + 'M bytes';
+                    }else{
+                        $.ajax({
+                            type: 'post',
+                            url: 'PHP/Garantie/submit.php',
+                            data: new FormData(this), // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+                            contentType: false,       // The content type used when sending data to the server.
+                            cache: false,             // To unable request pages to be cached
+                            processData:false,
+                            success: function () {
+                                document.getElementById("form_garantie").style.display="none";
+                                document.getElementById("alertSuccess").style.display="block";
+                            }
+                        });
+                    }
+
+                }
+
+            });
+        });
+    </script>
+
+
+    <div>
+        <div class="modal fade" id="myModalReparation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" id="modalReparationInit_1">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" id="ReparationLabel">
+                            demande SAV
+                        </h4>
+                    </div>
+
+                    <script>
+                        $(function () {
+                            $("#modalReparationInit_1").on('click', function () {
+                                // Info init
+                                informationRemove("form_re_1");
+                                informationRemove("form_re_tpan");
+                                informationRemove("form_re_dpan");
+                                informationRemove("form_re_compte");
+                                informationRemove("form_re_code");
+                                informationRemove("form_re_add");
+
+                                document.getElementById("span_Emei_re").innerHTML = "Saissez votre code EMEI";
+
+                                // form init
+                                document.getElementById("step_2_re").style.display="none";
+
+                                // Button init
+                                document.getElementById("step_1_button_re").style.display="block";
+                                document.getElementById("footer_button_re").style.display="none";
+
+                                // Information erreur init
+                                document.getElementById("alertEmail_re").style.display="none";
+                                document.getElementById("alertCode_re").style.display="none";
+
+                                document.getElementById("inputEmei_re").readOnly = false;
+
+                                document.getElementById("alertSuccess_re").style.display="none";
+                                document.getElementById("form_reparation").style.display="block";
+                                document.getElementById('form_reparation').reset();
+                            })
+                        });
+
+                    </script>
+
+                    <div class="alert alert-success" style="display: none" id="alertSuccess_re">
+                        <strong>Success</strong>! votre repaation a ete active
+                    </div>
+
+                    <form class="form-horizontal" role="form" id="form_reparation">
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label  class="col-sm-2 control-label" for="inputEmei_re">Imei</label>
+                                <div class="col-sm-10" id="form_re_1">
+                                    <input type="text" class="form-control" id="inputEmei_re" name="inputEmei_re" placeholder="Emei"/>
+                                    <span class="help-block" id="span_Emei_re">Saissez votre code IMEI</span>
+                                </div>
+                            </div>
+                            <div class="modal-footer" id="step_1_button_re" style="display: block">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modal_re_1_back">
+                                    Fermer
+                                </button>
+                                <button type="button" class="btn btn-primary" id="modal_re_1">
+                                    Etape suivante
+                                </button>
+                            </div>
+                            <script>
+                                $(function(){
+                                    $('#modal_re_1').on('click',function () {
+                                        var temp = "";
+                                        var str = $("#inputEmei_re").val(); // / get value from input
+                                        if(str === ""){
+                                            document.getElementById("form_re_1").classList.add('has-error');
+                                        } else {
+                                            if (window.XMLHttpRequest) { //code for IE7+
+                                                xmlhttp = new XMLHttpRequest();
+                                            } else { // code for IE6, IE5
+                                                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                                            }
+                                            xmlhttp.onreadystatechange = function () {
+                                                if (this.readyState === 4 && this.status === 200) {
+                                                    // calculate date
+                                                    temp = this.responseText;
+                                                    if(temp == 1){
+                                                        document.getElementById("span_Emei_re").innerHTML = "Veilleuez-vous remplir le code correct";
+                                                        errorInformation("form_re_1");
+                                                    }else if(temp == 2){
+                                                        document.getElementById("span_Emei_re").innerHTML = "deja inscrit";
+                                                        errorInformation("form_re_1");
+                                                    }else{
+                                                        var currentDate = new Date();
+                                                        var repDate = new Date(temp);
+                                                        //console.log(repDate);
+                                                        //console.log(currentDate);
+                                                        var gap = currentDate - repDate;
+                                                        var day_num = gap / (24*60*60*1000);
+                                                        if(day_num <= 365 && day_num >= 0){
+                                                            successInformation("form_re_1");
+                                                            document.getElementById("span_Emei_re").innerHTML = "le code est bon";
+                                                            document.getElementById("inputEmei_re").readOnly = true;
+                                                            document.getElementById("step_1_button_re").style.display="none";
+                                                            $("#step_2_re").slideDown("slow");
+                                                            document.getElementById("footer_button_re").style.display="block";
+                                                        }else {
+                                                            document.getElementById("span_Emei_re").innerHTML = "etre en retard";
+                                                            errorInformation("form_re_1");
+                                                        }
+                                                    }
+
+                                                }
+                                            };
+                                            xmlhttp.open("GET", "/PHP/Reparation/Step_one.php?q=" + str, true);
+                                            xmlhttp.send();
+                                        }
+                                    });
+                                });
+                            </script>
+
+                            <script>
+                                $(function(){
+                                    $('#modal_re_1_back').on('click',function () {
+                                        informationRemove("form_re_1");
+                                        document.getElementById("span_Emei_re").innerHTML = "Saissez votre code EMEI";
+                                        document.getElementById('form_reparation').reset();
+                                    });
+                                });
+                            </script>
+
+                            <div  style="display: none" id="step_2_re">
+                                <hr/>
+
+
+                                <div class="alert alert-danger" style="display: none" id="alertEmail_re">
+                                    Please entre valid email
+                                </div>
+                                <div class="alert alert-danger" style="display: none" id="alertCode_re">
+                                    Please entre valid code
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="Nom">Type de panne</label>
+                                    <div class="col-sm-10" id="form_re_tpan">
+                                        <input type="text" class="form-control" id="t_panne" name="t_panne" placeholder="Type de panne"/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="prenom">detail de panne</label>
+                                    <div class="col-sm-10" id="form_re_dpan">
+                                        <input type="text" class="form-control" id="d_pan" name="d_pan" placeholder="details de panne"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputEmail">E-mail</label>
+                                    <div class="col-sm-10" id="form_re_compte">
+                                        <input type="text" class="form-control" id="inputCompte" name="inputCompte" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputDate">code verrouille</label>
+                                    <div class="col-sm-10" id="form_re_code">
+                                        <input type="text" class="form-control" id="inputCode" name="inputCode"/>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputVendeur">addresse d'envoie</label>
+                                    <div class="col-sm-10" id="form_re_add">
+                                        <input type="text" class="form-control" id="inputAdd" name="inputAdd"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal Footer -->
+                            <div class="form-group" id="footer_button_re" style="display: none">
+                                <div class="modal-footer" >
+                                    <button type="button" class="btn btn-secondary" id="button_cancel_re" >
+                                        Etape derniere
+                                    </button>
+                                    <button type="submit" class="btn btn-primary" name="infoSub_re" id="infoSub_re">
+                                        save change
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+           $('#button_cancel_re') .on('click',function () {
+               // Info init
+               informationRemove("form_re_1");
+               informationRemove("form_re_tpan");
+               informationRemove("form_re_dpan");
+               informationRemove("form_re_compte");
+               informationRemove("form_re_code");
+               informationRemove("form_re_add");
+
+               document.getElementById("span_Emei_re").innerHTML = "Saissez votre code EMEI";
+
+               // form init
+               document.getElementById("footer_button_re").style.display="none";
+               $("#step_2_re").slideUp("slow");
+               $("#step_1_button_re").slideDown("slow");
+
+               // Information erreur init
+               document.getElementById("alertEmail_re").style.display="none";
+               document.getElementById("alertCode_re").style.display="none";
+
+               document.getElementById("inputEmei_re").readOnly = false;
+
+               //document.getElementById('form_reparation').reset();
+           })
+        });
+
+        $(function(){
+            $('#form_reparation').on('submit', function(e) {
+                e.preventDefault();
+
+                var flag = 0;
+
+                var tPanne = $("#t_panne").val();
+                var dPanne = $("#d_pan").val();
+                var email = $("#inputCompte").val();
+                var Code = $("#inputCode").val();
+                var add = $("#inputAdd").val();
+
+                if (tPanne === "") {
+                    errorInformation("form_re_tpan");
+                } else {
+                    flag++;
+                    successInformation("form_re_tpan");
+                }
+
+                if (dPanne === "") {
+                    errorInformation("form_re_dpan");
+                } else {
+                    flag++;
+                    successInformation("form_re_dpan");
+                }
+
+                if (email === "") {
+                    errorInformation("form_re_compte");
+                } else {
+                    var reg = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+                    var isok= reg.test(email);
+                    if (!isok) {
+                        errorInformation("form_re_compte");
+                        $("#alertEmail_re").slideDown("slow");
+                    }else{
+                        //$("#alertEmail").slideUp("slow");
+                        document.getElementById("alertEmail_re").style.display="none";
+                        flag++;
+                        successInformation("form_re_compte");
+                    }
+                }
+
+                if (Code === "") {
+                    errorInformation("form_re_code");
+                } else {
+                    var reg = /^[0-9]*$/;
+                    var isok= reg.test(Code);
+                    if (!isok) {
+                        errorInformation("form_re_code");
+                        $("#alertCode_re").slideDown("slow");
+                    }else{
+                        //$("#alertEmail").slideUp("slow");
+                        document.getElementById("alertCode_re").style.display="none";
+                        flag++;
+                        successInformation("form_re_code");
+                    }
+                }
+
+                if (add === "") {
+                    errorInformation("form_re_add");
+                } else {
+                    flag++;
+                    successInformation("form_re_add");
+                }
+
+                if(flag === 5){
+                    $.ajax({
+                        type: 'post',
+                        url: 'PHP/Reparation/submit.php',
+                        data: new FormData(this), // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+                        contentType: false,       // The content type used when sending data to the server.
+                        cache: false,             // To unable request pages to be cached
+                        processData:false,
+                        success: function () {
+                            document.getElementById("form_reparation").style.display="none";
+                            document.getElementById("alertSuccess_re").style.display="block";
+                        }
+                    });
+                }
+            }) ;
+        });
+    </script>
+
+    <div>
+        <div class="modal fade" id="myModalSAV" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" id="inti_sav">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h4 class="modal-title" id=SAVLabel">
+                            demande Reparation
+                        </h4>
+                    </div>
+
+                    <script>
+                        $(function(){
+                            $('#inti_sav').on('click', function(){
+                                informationRemove("form_sav_imei");
+                                informationRemove("form_SAV_tpan");
+                                informationRemove("form_sav_dpan");
+                                informationRemove("form_sav_compte");
+                                informationRemove("form_sav_code");
+                                informationRemove("form_sav_add");
+
+                                // Information erreur init
+                                document.getElementById("alertImei_sav").style.display="none";
+                                document.getElementById("alertEmail_sav").style.display="none";
+                                document.getElementById("alertCode_sav").style.display="none";
+                                document.getElementById("alertSuccess_sav").style.display="none";
+
+                                document.getElementById("form_SAV").style.display="block";
+                                document.getElementById('form_SAV').reset();
+                            })
+                        });
+                    </script>
+
+                    <div class="alert alert-success" style="display: none" id="alertSuccess_sav">
+                        <strong>Success</strong>! votre sav a ete active
+                    </div>
+
+                    <form class="form-horizontal" role="form" id="form_SAV" style="display: block">
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <div id="step_1_SAV">
+                                <div class="alert alert-danger" style="display: none" id="alertEmail_sav">
+                                    Please entre valid email
+                                </div>
+                                <div class="alert alert-danger" style="display: none" id="alertCode_sav">
+                                    Please entre valid code
+                                </div>
+                                <div class="alert alert-danger" style="display: none" id="alertImei_sav">
+                                    Please entre valid Imei
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="Nom">Nmero de Imei</label>
+                                    <div class="col-sm-10" id="form_sav_imei">
+                                        <input type="text" class="form-control" id="imei_sav" name="imei_sav" placeholder="numero de Imei"/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="Nom">Type de Panne</label>
+                                    <div class="col-sm-10" id="form_SAV_tpan">
+                                        <input type="text" class="form-control" id="t_panne_sav" name="t_panne_sav" placeholder="Type de panne"/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="prenom">detail de panne</label>
+                                    <div class="col-sm-10" id="form_sav_dpan">
+                                        <input type="text" class="form-control" id="d_pan_sav" name="d_pan_sav" placeholder="details de panne"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputEmail">E-mail</label>
+                                    <div class="col-sm-10" id="form_sav_compte">
+                                        <input type="text" class="form-control" id="inputCompte_sav" name="inputCompte_sav" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputDate">code verrouille</label>
+                                    <div class="col-sm-10" id="form_sav_code">
+                                        <input type="text" class="form-control" id="inputCode_sav" name="inputCode_sav"/>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-2 control-label" for="inputVendeur">addresse d'envoie</label>
+                                    <div class="col-sm-10" id="form_sav_add">
+                                        <input type="text" class="form-control" id="inputAdd_sav" name="inputAdd_sav"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal Footer -->
+                            <div class="form-group" id="footer_button_sav">
+                                <div class="modal-footer" >
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="button_cancel_sav" >
+                                        Fermer
+                                    </button>
+                                    <button type="submit" class="btn btn-primary"  id="infoSub_sav" name="infoSub_sav">
+                                        save change
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+           $('#button_cancel_sav').on('click', function(){
+               informationRemove("form_sav_imei");
+               informationRemove("form_SAV_tpan");
+               informationRemove("form_sav_dpan");
+               informationRemove("form_sav_compte");
+               informationRemove("form_sav_code");
+               informationRemove("form_sav_add");
+
+               // Information erreur init
+               document.getElementById("alertImei_sav").style.display="none";
+               document.getElementById("alertEmail_sav").style.display="none";
+               document.getElementById("alertCode_sav").style.display="none";
+               document.getElementById("alertSuccess_sav").style.display="none";
+
+               document.getElementById("form_SAV").style.display="block";
+               document.getElementById('form_SAV').reset();
+           })
+        });
+
+        $(function () {
+            $('#form_SAV').on('submit',function (event) {
+                event.preventDefault();
+
+                var flag = 0;
+
+                var imei = $("#imei_sav").val();
+                var tPanne = $("#t_panne_sav").val();
+                var dPanne = $("#d_pan_sav").val();
+                var email = $("#inputCompte_sav").val();
+                var Code = $("#inputCode_sav").val();
+                var add = $("#inputAdd_sav").val();
+
+                if (imei === "") {
+                    errorInformation("form_sav_imei");
+                } else {
+                    var reg = /^[0-9]*$/;
+                    var isok= reg.test(imei);
+                    if (!isok) {
+                        errorInformation("form_sav_imei");
+                        $("#alertImei_sav").slideDown("slow");
+                    }else{
+                        //$("#alertEmail").slideUp("slow");
+                        document.getElementById("alertImei_sav").style.display="none";
+                        flag++;
+                        successInformation("form_sav_imei");
+                    }
+                }
+
+                if (tPanne === "") {
+                    errorInformation("form_SAV_tpan");
+                } else {
+                    flag++;
+                    successInformation("form_SAV_tpan");
+                }
+
+                if (dPanne === "") {
+                    errorInformation("form_sav_dpan");
+                } else {
+                    flag++;
+                    successInformation("form_sav_dpan");
+                }
+
+                if (email === "") {
+                    errorInformation("form_sav_compte");
+                } else {
+                    var reg = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+                    var isok= reg.test(email);
+                    if (!isok) {
+                        errorInformation("form_sav_compte");
+                        $("#alertEmail_sav").slideDown("slow");
+                    }else{
+                        //$("#alertEmail").slideUp("slow");
+                        document.getElementById("alertEmail_sav").style.display="none";
+                        flag++;
+                        successInformation("form_sav_compte");
+                    }
+                }
+
+                if (Code === "") {
+                    errorInformation("form_sav_code");
+                } else {
+                    var reg = /^[0-9]*$/;
+                    var isok= reg.test(Code);
+                    if (!isok) {
+                        errorInformation("form_sav_code");
+                        $("#alertCode_sav").slideDown("slow");
+                    }else{
+                        //$("#alertEmail").slideUp("slow");
+                        document.getElementById("alertCode_sav").style.display="none";
+                        flag++;
+                        successInformation("form_re_code");
+                    }
+                }
+
+                if (add === "") {
+                    errorInformation("form_sav_add");
+                } else {
+                    flag++;
+                    successInformation("form_sav_add");
+                }
+                console.log(flag);
+
+                if(flag === 6){
+                    $.ajax({
+                        type: 'post',
+                        url: 'PHP/SAV/submit.php',
+                        data: new FormData(this), // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+                        contentType: false,       // The content type used when sending data to the server.
+                        cache: false,             // To unable request pages to be cached
+                        processData:false,
+                        success: function () {
+                            document.getElementById("form_SAV").style.display="none";
+                            document.getElementById("alertSuccess_sav").style.display="block";
+                        }
+                    });
+                }
+            })
+        })
+    </script>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+
+    <script>
+        // Prevent users from submitting a form by hitting Enter
+        $(document).ready(function() {
+            $(window).keydown(function(event){
+                if(event.keyCode === 13) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        function convertToISO(timebit) {
+            return isodate = timebit.toISOString().slice(0, 10);
+        }
+
+        var dateTarget = document.getElementById('inputDate');
+        var currentDate = new Date();
+        var gap = 385;
+        dateTarget.max = convertToISO(currentDate);
+        var pastDate = new Date();
+        pastDate.setDate(pastDate.getDate() - gap);
+        dateTarget.min = convertToISO(pastDate);
+    </script>
+
+
+
+        <!-- jQuery -->
+    <script src="js_four/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js_four/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js_four/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js_four/jquery.waypoints.min.js"></script>
+    <!-- countTo -->
+    <script src="js_four/jquery.countTo.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js_four/jquery.magnific-popup.min.js"></script>
+    <script src="js_four/magnific-popup-options.js"></script>
+    <!-- Main -->
+    <script src="js_four/main.js"></script>
+
+</body>
+</html>
